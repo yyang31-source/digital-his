@@ -1,36 +1,67 @@
-<main>
-  <section class="hero">
-    <h1>Findings</h1>
+你现在直接把整个 findings.html 改成下面这个完整版本：
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Findings | Chinese Nationalism in Early Twentieth-Century Textbooks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <p class="site-title">Chinese Nationalism in Early Twentieth-Century Textbooks</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="planning.html">Planning</a>
+      <a href="findings.html">Findings</a>
+      <a href="sustainability.html">Sustainability</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Findings</h1>
+      <p>
+        This section presents a prototype interface for exploring early twentieth-century Chinese textbooks by subject category.
+        Users can browse textbooks by category, view book covers, and open individual pages with keyword frequency results and KWIC tables.
+      </p>
+    </section>
+
+    <section class="category-grid">
+      <a class="category-card" href="findings-history.html">
+        <h2>History</h2>
+        <p>World history and historical narratives</p>
+      </a>
+
+      <a class="category-card" href="findings-geography.html">
+        <h2>Geography</h2>
+        <p>Spatial knowledge, territory, and regional description</p>
+      </a>
+
+      <a class="category-card" href="findings-self-cultivation.html">
+        <h2>Self-Cultivation</h2>
+        <p>Moral training and personal conduct</p>
+      </a>
+
+      <a class="category-card" href="findings-language.html">
+        <h2>Language Readers</h2>
+        <p>Language instruction and reading materials</p>
+      </a>
+
+      <a class="category-card" href="findings-civics.html">
+        <h2>Civics / Ethics</h2>
+        <p>Citizenship, society, and public values</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
     <p>
-      This section presents a prototype interface for exploring early twentieth-century Chinese textbooks by subject category.
-      Users can browse textbooks by category, view book covers, and open individual pages with keyword frequency results and KWIC tables.
+      Project website for HIST 501D Digital History |
+      <a href="https://github.com/yyang31-source/digital-his">View the GitHub repository</a>
     </p>
-  </section>
-
-  <section class="category-grid">
-    <a class="category-card" href="findings-history.html">
-      <h2>History</h2>
-      <p>World history and historical narratives</p>
-    </a>
-
-    <a class="category-card" href="findings-geography.html">
-      <h2>Geography</h2>
-      <p>Spatial knowledge, territory, and regional description</p>
-    </a>
-
-    <a class="category-card" href="findings-self-cultivation.html">
-      <h2>Self-Cultivation</h2>
-      <p>Moral training and personal conduct</p>
-    </a>
-
-    <a class="category-card" href="findings-language.html">
-      <h2>Language Readers</h2>
-      <p>Language instruction and reading materials</p>
-    </a>
-
-    <a class="category-card" href="findings-civics.html">
-      <h2>Civics / Ethics</h2>
-      <p>Citizenship, society, and public values</p>
-    </a>
-  </section>
-</main>
+  </footer>
+</body>
+</html>

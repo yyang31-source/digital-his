@@ -205,3 +205,22 @@ footer a {
   padding: 1rem;
   margin-top: 1.5rem;
 }
+html,
+body {
+  background: #f6f1e7;
+  color: #222;
+}
+
+main {
+  background: #f6f1e7;
+}
+
+header {
+  background: #efe6d8;
+}
+
+.hero {
+  background: #efe6d8;
+  border-radius: 12px;
+  padding: 2rem;
+}

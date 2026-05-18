@@ -3,42 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planning | Chinese Nationalism in Early Twentieth-Century Textbooks</title>
+  <meta name="description" content="Planning notes for a digital history site about minzu across school subjects.">
+  <title>Planning | Minzu Across School Subjects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <p class="site-title">Chinese Nationalism in Early Twentieth-Century Textbooks</p>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Minzu Across School Subjects</a>
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="planning.html">Planning</a>
       <a href="findings.html">Findings</a>
+      <a href="planning.html">Planning</a>
       <a href="sustainability.html">Sustainability</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Planning</h1>
-      <p class="intro">
-        This page documents the early planning process for the site. It includes hand-drawn
-        interface sketches and a short explanation of the intended audience and the design
-        choices behind each page.
+      <p class="eyebrow">Site planning</p>
+      <h1>Why the Website Is Built This Way</h1>
+      <p class="hero-text">
+        This page explains the design logic behind the site. The goal is not only to show
+        research results, but to guide visitors from the historical problem, to the corpus and
+        method, to subject-level comparison, and finally to close reading of textbook passages.
       </p>
     </section>
 
     <section>
-      <h2>Intended Visitor</h2>
+      <h2>Planning Goal</h2>
       <p>
-        The intended visitor is an undergraduate student in an introductory course on modern
-        Chinese history. This reader may know the broad outline of late Qing and Republican
-        history, but is unlikely to have prior knowledge of textbook history, nationalism as
-        a constructed discourse, or the role of educational materials in shaping modern political identity.
+        The project asks how early twentieth-century Chinese textbooks taught nationalism through
+        the keyword <em>minzu</em>. Because the argument depends on both pattern and context, the
+        website is organized in layers: an overview page introduces the question, the findings page
+        compares five subjects, each subject page explains one curricular area, and each book page
+        lets readers inspect the KWIC evidence for a specific textbook.
       </p>
       <p>
-        For that reason, the site is designed to be explanatory rather than specialist. It gives
-        students context first, then asks them to compare short passages, and only after that
-        offers an interpretation.
+        This structure is meant to make the evidence readable. Visitors should understand that
+        the project uses a limited but expandable sample of twenty-five textbooks, and that the
+        important comparison is not just which book has more occurrences, but how different school
+        subjects used the same word to teach different forms of national consciousness.
       </p>
     </section>
 
@@ -46,74 +50,115 @@
       <h2>Interface Sketches</h2>
 
       <article>
-        <h3>Home Page Sketch</h3>
-        <img src="sketch-home.png" alt="Hand-drawn sketch of the home page layout, including site title, navigation, overview, findings, and student takeaway sections.">
+        <h3>Overall Site Structure Sketch</h3>
+        <img class="planning-sketch" src="images/planning-information-architecture.jpg" alt="Hand-drawn planning sketch showing the title, overview and context, research question, method and limitation, and findings sections.">
         <p>
-          The home page is designed to introduce the project clearly and quickly. It presents
-          the topic, the historical context, and the central question before moving to findings.
-          The goal is to help students understand why textbooks matter as sources for studying nationalism.
+          This sketch shows the main reading path of the site. The title frames the project as
+          a study of teaching Chinese nationalism, while the first sections provide overview,
+          context, research question, method, and limitations before asking visitors to read the
+          results. The order matters: the site first explains what the corpus is and why the keyword
+          matters, then moves into interpretation.
         </p>
       </article>
 
       <article>
         <h3>Findings Page Sketch</h3>
-        <img src="sketch-findings.png" alt="Hand-drawn sketch of the findings page layout, including an opening paragraph, questions, translated sources, links to original texts, and interpretation and limits.">
+        <img class="planning-sketch" src="images/planning-findings-overview.jpg" alt="Hand-drawn sketch of the findings page, showing overall minzu frequency results, a short finding, and five subject entry cards.">
         <p>
-          The findings page is organized around guided comparison. Students first encounter
-          questions, then translated sources, and only afterward the interpretation. This structure
-          encourages close reading and comparison instead of asking visitors to begin with my argument.
+          The findings page is designed as the main results entrance. It first gives visitors the
+          subject comparison and the broad interpretive finding, then provides five subject cards
+          as paths into more detailed evidence. This layout communicates that the main comparison
+          is across subjects, while keeping the first results page readable instead of crowding it
+          with every KWIC example.
         </p>
       </article>
 
       <article>
-        <h3>Sustainability Page Sketch</h3>
-        <img src="sketch-sustainability.png" alt="Hand-drawn sketch of the sustainability page layout, including platform, essential files, source base, and future maintenance sections.">
+        <h3>Subject Page Sketch</h3>
+        <img class="planning-sketch" src="images/planning-subject-page.jpg" alt="Hand-drawn sketch of a subject page, showing representative KWIC results, subject frequency results, an interpretive finding, and five book links.">
         <p>
-          The sustainability page is more technical. It explains how the site is built, what files
-          it depends on, and how a future user could update or maintain it. Unlike the other pages,
-          this one is aimed less at students and more at future maintainers or course reviewers.
+          Each subject page narrows the scale from the whole corpus to one curricular area. The
+          page shows representative KWIC examples, the frequency results for that subject, a short
+          explanation of how nationalism is made through that subject's textbooks, and five book
+          covers leading to individual textbook pages. This structure lets readers see both the
+          subject-level pattern and the specific books behind it.
+        </p>
+      </article>
+
+      <article>
+        <h3>Book Page Sketch</h3>
+        <img class="planning-sketch" src="images/planning-book-page.jpg" alt="Hand-drawn sketch of an individual textbook page, showing all KWIC results in one book and frequency analysis for that book.">
+        <p>
+          The book page is the most detailed evidence layer. It lists all KWIC results for one
+          textbook and gives the frequency analysis for that book. This page is separated from the
+          overview and subject pages because it is mainly for close checking: visitors can inspect
+          how each occurrence of <em>minzu</em> appears in context without interrupting the broader
+          subject comparison.
+        </p>
+      </article>
+
+      <article>
+        <h3>Sustainability Sketch</h3>
+        <img class="planning-sketch" src="images/planning-sustainability.jpg" alt="Hand-drawn planning sketch listing platform, static HTML and CSS, GitHub Pages hosting, essential files, data sources, and maintenance.">
+        <p>
+          This sketch records the maintenance plan. The site uses static HTML and CSS, hosted
+          through GitHub Pages, so the project can be opened, checked, and revised without a server
+          or specialized software. The planning page also identifies the essential files, data
+          sources, and maintenance logic so that a future reader can understand how the site was
+          assembled.
         </p>
       </article>
     </section>
 
     <section>
-      <h2>Design Decisions</h2>
+      <h2>Design Rationale</h2>
 
       <article>
-        <h3>Home Page: Context Before Analysis</h3>
+        <h3>Navigation Separates Different Kinds of Information</h3>
         <p>
-          The home page gives visitors context before interpretation. Since the site is made for
-          undergraduate teaching, students need to know what the project is about and why the source
-          base matters before they move into close comparison.
+          The main navigation separates the project into four jobs. The home page introduces the
+          historical context and research question. The findings page presents the analytical
+          results. The planning page explains why the site is structured this way. The sustainability
+          page documents platform, files, and maintenance.
         </p>
       </article>
 
       <article>
-        <h3>Findings Page: Questions Before Interpretation</h3>
+        <h3>Findings Move from General Pattern to Specific Evidence</h3>
         <p>
-          The findings page begins with guiding questions so that students read actively. Instead
-          of treating the sources as illustrations of a conclusion already given, the page asks
-          students to notice differences in political language, civilizational language, and claims
-          about ancestry for themselves.
+          The findings section begins with comparison across five subjects, because the main
+          argument is about how nationalism was taught across different areas of school knowledge.
+          Subject pages then show the frequency results and representative KWIC examples for one
+          subject. Individual book pages keep the most detailed evidence separate, so visitors can
+          inspect all keyword contexts without making the overview page unreadable.
         </p>
       </article>
 
       <article>
-        <h3>Sustainability Page: Documentation for Future Use</h3>
+        <h3>Book Covers Make the Corpus Visible</h3>
         <p>
-          The sustainability page records the platform choices, the site structure, and the basic
-          maintenance logic of the project. This makes the site easier to understand and revise
-          after the course ends.
+          The subject pages use textbook covers as links to individual book pages. This makes the
+          sources visible as schoolbooks rather than only as rows in a table. It also helps visitors
+          see that the project is built from a concrete corpus: five subjects, five books per subject,
+          and a method that can be expanded later.
+        </p>
+      </article>
+
+      <article>
+        <h3>KWIC Connects Quantitative Results to Interpretation</h3>
+        <p>
+          Frequency counts show where <em>minzu</em> appears, but they do not explain what the word
+          is doing. KWIC tables keep each occurrence beside its surrounding context, allowing the site
+          to connect counts with interpretation: history teaches national crisis and struggle, civics
+          teaches political membership, geography teaches territory, readers teach feeling, and
+          self-cultivation teaches moral duty.
         </p>
       </article>
     </section>
   </main>
 
   <footer>
-    <p>
-      Project website for HIST 501D Digital History |
-      <a href="https://github.com/yyang31-source/digital-his">View the GitHub repository</a>
-    </p>
+    <p>Project website for HIST 501D Digital History. Data tables are generated from the cleaned textbook corpus.</p>
   </footer>
 </body>
 </html>

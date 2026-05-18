@@ -3,63 +3,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Findings | Chinese Nationalism in Early Twentieth-Century Textbooks</title>
+  <meta name="description" content="A digital history project about minzu in early twentieth-century Chinese textbooks.">
+  <title>Findings | Minzu Across School Subjects</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <p class="site-title">Chinese Nationalism in Early Twentieth-Century Textbooks</p>
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="planning.html">Planning</a>
-      <a href="findings.html">Findings</a>
-      <a href="sustainability.html">Sustainability</a>
-    </nav>
-  </header>
+
+    <header class="site-header">
+      <a class="site-title" href="index.html">Minzu Across School Subjects</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="findings.html">Findings</a>
+        <a href="planning.html">Planning</a>
+        <a href="sustainability.html">Sustainability</a>
+      </nav>
+    </header>
 
   <main>
-    <section class="hero">
-      <h1>Findings</h1>
-      <p>
-        This section presents a prototype interface for exploring early twentieth-century Chinese textbooks by subject category.
-        Users can browse textbooks by category, view book covers, and open individual pages with keyword frequency results and KWIC tables.
+
+    <section class="hero compact-hero">
+      <p class="eyebrow">Findings</p>
+      <h1>Minzu Frequency Result Across the Curriculum</h1>
+      <p class="hero-text">
+        This section compares five subject areas first, then opens into representative KWIC examples
+        and individual textbooks.
       </p>
     </section>
 
-    <section class="category-grid">
-      <a class="category-card" href="findings-history.html">
-        <h2>History</h2>
-        <p>World history and historical narratives</p>
-      </a>
+    <section>
+      <h2>Subject Comparison</h2>
+      
+      <div class="table-wrap">
+        <table class="analysis-table">
+          <caption>Frequency of minzu by subject</caption>
+          <thead>
+            <tr>
+              <th scope="col">Subject</th>
+              <th scope="col">Occurrences</th>
+              <th scope="col">Analysis chars</th>
+              <th scope="col">Per 10k chars</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row"><a href="subjects/history.html">History</a></th>
+            <td>169</td>
+            <td>247,361</td>
+            <td>6.83</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="subjects/civics.html">Civics</a></th>
+            <td>167</td>
+            <td>290,362</td>
+            <td>5.75</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="subjects/geography.html">Geography</a></th>
+            <td>56</td>
+            <td>313,154</td>
+            <td>1.79</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="subjects/readers.html">Language Readers</a></th>
+            <td>40</td>
+            <td>333,852</td>
+            <td>1.20</td>
+          </tr>
+          <tr>
+            <th scope="row"><a href="subjects/morality.html">Self-Cultivation</a></th>
+            <td>13</td>
+            <td>113,840</td>
+            <td>1.14</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <a class="category-card" href="findings-geography.html">
-        <h2>Geography</h2>
-        <p>Spatial knowledge, territory, and regional description</p>
-      </a>
-
-      <a class="category-card" href="findings-self-cultivation.html">
-        <h2>Self-Cultivation</h2>
-        <p>Moral training and personal conduct</p>
-      </a>
-
-      <a class="category-card" href="findings-language.html">
-        <h2>Language Readers</h2>
-        <p>Language instruction and reading materials</p>
-      </a>
-
-      <a class="category-card" href="findings-civics.html">
-        <h2>Civics / Ethics</h2>
-        <p>Citizenship, society, and public values</p>
-      </a>
     </section>
-  </main>
 
+    <section>
+      <h2>Finding from the Subject Comparison</h2>
+      <p>
+        In the 1930s, when Chinese nationalism intensified under the pressure of Japanese aggression,
+        these five subjects helped cultivate students' national consciousness from different directions.
+        The frequency differences should therefore be read as differences in curricular emphasis: some
+        subjects named 民族 more directly, while others taught national belonging through their own
+        forms of school knowledge.
+      </p>
+      <p>
+        The KWIC examples make those differences clearer. With context, 民族 shifts from historical
+        struggle to civic population and survival, from territorial knowledge to literary feeling, and from
+        family order to moral responsibility. The same keyword taught national consciousness differently
+        depending on the subject in which students encountered it.
+      </p>
+    </section>
+
+    <section>
+      <h2>Representative KWIC Examples</h2>
+      <p class="section-note">
+        The examples below are a short sample from the full KWIC table, chosen to show one instance from each
+        subject. The added interpretation column explains how each example teaches 民族 inside that
+        subject. Full subject and book-level KWIC tables are available through the links below.
+      </p>
+      
+      
+      <div class="table-wrap kwic-wrap">
+        <table class="analysis-table kwic-table kwic-table-interpreted">
+          <caption>KWIC contexts for minzu</caption>
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Book</th>
+              <th scope="col">Left context</th>
+              <th scope="col">Keyword</th>
+              <th scope="col">Right context</th>
+              <th scope="col">Interpretation</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>18</td>
+            <td><a href="books/gaozhong-benguoshi.html">高中本国史</a></td>
+            <td class="kwic-left">面:一方面結合我們自己之</td>
+            <td class="kwic-keyword">民族</td>
+            <td class="kwic-right">,在一條戰線上抵抗外來民族之侵略和壓迫,使中|國民族完全解放,以自由獨立於世界。同時積極的爲自己民族</td>
+            <td class="kwic-interpretation">History teaches minzu as collective historical struggle: the nation is something to unite, defend, and liberate from foreign invasion.</td>
+          </tr>
+          <tr>
+            <td>176</td>
+            <td><a href="books/gaozhong-gongmin.html">高中公民</a></td>
+            <td class="kwic-left">第三章人口問題第一節人口增減之原因與結果人口繁殖的主張人口爲社會組織的最要原素,人口的增減,足以影響</td>
+            <td class="kwic-keyword">民族</td>
+            <td class="kwic-right">幸福及民族文化。歷來文化進步、人民安樂的社會,大槪都有繁密的人口。因爲人口增多,始能集合衆力以謀公共</td>
+            <td class="kwic-interpretation">Civics teaches minzu through social capacity: population, welfare, and culture become signs of whether a political community can survive and strengthen itself.</td>
+          </tr>
+          <tr>
+            <td>337</td>
+            <td><a href="books/fuxing-dili-jiaokeshu-gaoxiao-2.html">复兴地理教科书（高小第二册）</a></td>
+            <td class="kwic-left">文現象的因果關係;對於國恥地和中|山先生的實業_計劃,尤三西康的形勢十四洪澤湖和淮水爲注意,藉以指示</td>
+            <td class="kwic-keyword">民族</td>
+            <td class="kwic-right">復興的途徑。四四川的盆地和物產十五銅山和創縣在交通上的地位(三)本書編制採用總合分析法,打破論理的排</td>
+            <td class="kwic-interpretation">Geography teaches minzu through territory: national humiliation, resources, and development projects become routes toward national revival.</td>
+          </tr>
+          <tr>
+            <td>395</td>
+            <td><a href="books/chuzhong-guowen-duben.html">初中国文读本</a></td>
+            <td class="kwic-left">蹟;第四課寫現代課從爲軍劇靑年同仇敵愾的行動;末二課爲本任公畫像贊幷序述懷及詠史之壯烈詩詞:皆以喚起</td>
+            <td class="kwic-keyword">民族</td>
+            <td class="kwic-right">精神爲中心。從軍情記敍用應敍記記敍記敍敍記記敍記敍記敍揮發的神精族民赴敵組八第詞三首訴裏情沁國春抒情</td>
+            <td class="kwic-interpretation">Language readers teach minzu affectively: reading and model prose are used to arouse national spirit and train students&#x27; emotional attachment to the nation.</td>
+          </tr>
+          <tr>
+            <td>433</td>
+            <td><a href="books/gaozhong-xiushen.html">高中修身</a></td>
+            <td class="kwic-left">生活必有秩序,家庭自然也得安然。從另一方面來看,家庭是社會生活的單位,家庭裏有秩序,各個人、各家庭、</td>
+            <td class="kwic-keyword">民族</td>
+            <td class="kwic-right">、國家的生活纔能安定,纔能發展。先儒有言國之本在家」,又說:「家齊而後國治」。在家庭聽從家長之命,守</td>
+            <td class="kwic-interpretation">Self-cultivation teaches minzu through moral conduct: order inside the family is presented as the basis for stable collective and national life.</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="category-grid">
+        <a class="category-card subject-entry-card" href="subjects/history.html">
+          <strong>History</strong>
+        </a>
+        <a class="category-card subject-entry-card" href="subjects/civics.html">
+          <strong>Civics</strong>
+        </a>
+        <a class="category-card subject-entry-card" href="subjects/geography.html">
+          <strong>Geography</strong>
+        </a>
+        <a class="category-card subject-entry-card" href="subjects/readers.html">
+          <strong>Language Readers</strong>
+        </a>
+        <a class="category-card subject-entry-card" href="subjects/morality.html">
+          <strong>Self-Cultivation</strong>
+        </a></div>
+      <p class="section-note">
+        Click a subject to view its subject-level results, including representative KWIC examples,
+        its five textbooks, and links to individual book results.
+      </p>
+    </section>
+
+  </main>
   <footer>
-    <p>
-      Project website for HIST 501D Digital History |
-      <a href="https://github.com/yyang31-source/digital-his">View the GitHub repository</a>
-    </p>
+    <p>Project website for HIST 501D Digital History. Data tables are generated from the cleaned textbook corpus.</p>
   </footer>
 </body>
 </html>

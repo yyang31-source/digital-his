@@ -1,0 +1,14 @@
+{
+  "keyword": "民族",
+  "keyword_romanization": "minzu",
+  "source_pages_csv": "C:\\Users\\50325\\project-work-yyang31-source\\data\\processed\\jdwxk_pages.csv",
+  "context_window_characters": 50,
+  "book_count": 25,
+  "subject_count": 5,
+  "total_pages": 3593,
+  "analyzed_pages": 3543,
+  "analysis_chars": 1298569,
+  "keyword_hits": 445,
+  "books_with_hits": 21,
+  "subjects_with_hits": 5
+}

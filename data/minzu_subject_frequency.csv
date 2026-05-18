@@ -1,0 +1,6 @@
+keyword,keyword_romanization,subject,book_count,books_with_hits,total_pages,analyzed_pages,no_text_pages,analysis_chars,keyword_hits,pages_with_hits,frequency_per_10k_chars,frequency_per_100_analyzed_pages
+民族,minzu,history,5,4,674,662,12,247361,169,66,6.83212,25.528701
+民族,minzu,civics,5,4,751,744,7,290362,167,62,5.751441,22.446237
+民族,minzu,geography,5,5,784,768,16,313154,56,39,1.788258,7.291667
+民族,minzu,readers,5,5,927,916,11,333852,40,27,1.198136,4.366812
+民族,minzu,morality,5,3,457,453,4,113840,13,11,1.141954,2.869757

@@ -69,6 +69,37 @@ section {
   overflow-wrap: break-word;
 }
 
+.home-hero h1 {
+  max-width: 980px;
+  font-size: clamp(2.45rem, 5vw, 4.45rem);
+  line-height: 1.08;
+}
+
+.home-hero .hero-text {
+  max-width: 1020px;
+  font-size: 1.12rem;
+}
+
+.home-panel {
+  background: #fffaf0;
+  border: 1px solid #d6c7ae;
+  border-radius: 8px;
+  padding: 1.45rem 1.6rem;
+}
+
+.home-panel h2 {
+  margin-top: 0;
+}
+
+.home-finding {
+  background: #efe6d8;
+}
+
+.question-text {
+  font-size: 1.15rem;
+  color: #4f4434;
+}
+
 .hero-text,
 .section-note,
 .metric-note,

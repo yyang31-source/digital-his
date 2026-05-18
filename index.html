@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A digital history project about minzu in early twentieth-century Chinese textbooks.">
   <title>Minzu Across School Subjects</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260518-3">
 </head>
 <body>
 
@@ -21,66 +21,71 @@
 
   <main>
 
-    <section class="hero">
-      <p class="eyebrow">Digital history keyword analysis</p>
-      <h1>How Early Twentieth-Century Chinese Textbooks Taught the Idea of Minzu</h1>
+    <section class="hero home-hero">
+      <h1>Teaching Chinese Nationalism in the Early Twentieth Century: Minzu Across School Subjects</h1>
       <p class="hero-text">
-        This project follows one keyword, <em>minzu</em> (民族), across five school subjects.
-        It asks how a modern vocabulary of peoplehood, nation, and collective identity moved through
-        history, civics, geography, language readers, and self-cultivation textbooks.
+        This project follows one keyword, <em>minzu</em> (民族), through five kinds of
+        school textbooks. It asks how nationalism was taught not only through political language,
+        but also through history, civics, geography, language readers, and self-cultivation.
       </p>
-      <a class="button-link" href="findings.html">Explore the findings</a>
     </section>
 
-    <section>
+    <section class="home-panel">
+      <p>
+        The project focuses on textbooks from the 1930s, a period when Chinese nationalism intensified
+        under the pressure of Japanese aggression. In this context, school textbooks did more than
+        transmit subject knowledge. They also helped students imagine what China was, who belonged to it,
+        and what responsibilities modern national subjects should carry.
+      </p>
+      <p>
+        Instead of treating nationalism as a single fixed idea, this site looks at how one keyword moved
+        across different parts of the curriculum. The word <em>minzu</em> could name a people, a nation,
+        a racial or ethnic group, or a collective historical community. Its meaning becomes clearer when
+        we read both frequency patterns and surrounding context.
+      </p>
+    </section>
+
+    <section class="home-panel">
       <h2>Research Question</h2>
-      <p>
-        How was the term <em>minzu</em> (民族) used across different school subjects in late Qing
-        and Republican-era Chinese textbooks, and what can its frequency and surrounding context tell us
-        about the construction of national identity as school knowledge?
+      <p class="question-text">
+        How did textbooks from different school subjects use <em>minzu</em> (民族), and what do
+        those differences reveal about how Chinese nationalism was taught as school knowledge?
       </p>
     </section>
 
-    <section>
-      <h2>Corpus and Method</h2>
+    <section class="home-panel">
+      <h2>Method and Limitation</h2>
       <p>
-        This project begins with textbooks from the 1930s, a period when Chinese nationalism intensified
-        under the pressure of Japanese aggression. I selected a balanced sample of 25
-        textbooks: five books each from history, civics, geography, language readers, and self-cultivation.
-        The sample is intentionally limited but expandable; its purpose is to test how the same keyword moved
-        across different parts of the school curriculum.
+        I selected a balanced sample of 25 textbooks: five books each from history,
+        civics, geography, language readers, and self-cultivation. This sample is intentionally limited
+        but expandable. It is designed to compare subject emphasis rather than to represent every textbook
+        used in Republican China.
       </p>
       <p>
-        I first count exact appearances of 民族 and normalize the result as occurrences per 10,000 cleaned
-        analysis characters. I then use KWIC, or Key Word in Context, to read the passages around each occurrence.
-        The frequency table shows where the term was concentrated; the KWIC examples show what the term was doing
-        in each subject.
+        The analysis combines keyword frequency and KWIC, or Key Word in Context. Frequency counts show
+        where 民族 appears more often; KWIC examples show how the word is used in context. Because OCR
+        and exact keyword searching cannot capture every related idea, the numbers are treated as an entry
+        point for interpretation, not as the whole argument.
       </p>
     </section>
 
-    <section>
-      <h2>Subject Paths</h2>
-      <div class="category-grid">
-        <a class="category-card subject-entry-card" href="subjects/history.html">
-          <strong>History</strong>
-        </a>
-        <a class="category-card subject-entry-card" href="subjects/civics.html">
-          <strong>Civics</strong>
-        </a>
-        <a class="category-card subject-entry-card" href="subjects/geography.html">
-          <strong>Geography</strong>
-        </a>
-        <a class="category-card subject-entry-card" href="subjects/readers.html">
-          <strong>Language Readers</strong>
-        </a>
-        <a class="category-card subject-entry-card" href="subjects/morality.html">
-          <strong>Self-Cultivation</strong>
-        </a></div>
+    <section class="home-panel home-finding">
+      <h2>Finding</h2>
+      <p>
+        The five subjects taught national consciousness from different directions. History emphasized
+        collective struggle and national crisis. Civics connected 民族 to political membership and
+        social responsibility. Geography made the nation legible through territory, resources, and borders.
+        Language readers taught national feeling through prose and exemplary writing. Self-cultivation
+        linked national life to family order and moral duty.
+      </p>
     </section>
 
   </main>
   <footer>
-    <p>Project website for HIST 501D Digital History. Data tables are generated from the cleaned textbook corpus.</p>
+    <p>
+      Project website for HIST 501D Digital History.
+      <a href="https://github.com/yyang31-source/digital-his">View the GitHub repository</a>
+    </p>
   </footer>
 </body>
 </html>
